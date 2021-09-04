@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rampart+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<header>
+    <img class="footPrintIcon" src="images/human-footprint.png" alt="">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" class="sticky">
+      <div class="container-fluid">
+        <a class="navbar-brand brand" href="#">Walk It!</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="destinations.html">Destinations</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+<body class="bodyDestination">
+    <section>
+        <div>
+            <h1 class="destinationTitle">DESTINATIONS</h1>
+        </div>
+    </section>
+
+    <section class="container-fluid">
+        <div id="lebanonTourDescription">
+          <img src="images/biblosTunnel.jpg" class="img-fluid-home beirutImage" alt="beirutTunnel">
+          <h2 class="beirutH2">Beirut, Lebanon</h2>
+          <p id="beirutText" class="beirutText">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur quas placeat excepturi rem dicta soluta aliquam, commodi quaerat, perferendis, voluptatibus ex animi. Repudiandae magni doloribus adipisci exercitationem dolores, eos deleniti!</p>
+          <script> const element1 = document.getElementById ("beirutText")
+          element1.innerHTML = "Beirut is a fascinating city, with so much to offer. It has a unique street art scene which makes it worth walking around and getting lost....";</script>
+        </div>
+        <div id="japanTourDescription">
+          <img src="images/osaka-geisha.JPG" class="img-fluid-home imageGeisha" alt="osaka-geisha">
+          <h2 class="geishaH2">Kyoto, Japon</h2>
+          <p id="geishaText" class="geishaText">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum iste magnam ad quis aperiam omnis, et nisi! Neque recusandae, dolor illo tempora beatae rerum sit nobis earum, velit possimus accusamus!</p>
+         <script>const element = document.getElementById("geishaText");
+            element.innerHTML = "The city of Kyoto blends is of vast contrast. Nested amongst modern buildings, you can stumble accross some traditional elements of Japanese culture.";</script>
+        </div>
+        <div id="egyptTourDescription">
+    <img src="images/cairo-giza.jpeg" class="img-fluid-home cairoGiza" alt="cairo-giza">
+    <h2 class="cairoH2">Cairo, Egipto</h2>
+    <p id="gizaText" class="gizaText">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis provident voluptatum ad aut voluptatem ex exercitationem dolorem nihil odio eligendi esse optio corrupti porro, quisquam illo, saepe quidem quae asperiores.</p>
+    <script>const element = document.getElementById("gizaText");
+      element.innerHTML = "The heat, the hustle and its unique history is what makes Cairo so speacil....";</script>
+  </div>
+  <div id="spainTourDescription">
+    <img src="images/barcelona-statue.jpeg" class="img-fluid-home barcelona-statue" alt="barcelona-statue">
+    <h2 class="barcelonaH2">Barcelona, Spain</h2>
+    <p id="barcelonaText" class="barcelonaText">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis provident voluptatum ad aut voluptatem ex exercitationem dolorem nihil odio eligendi esse optio corrupti porro, quisquam illo, saepe quidem quae asperiores.</p>
+    <script>const element = document.getElementById("barcelonaText");
+      element.innerHTML = "Barcelona has one of the most important music scenes in Spain, with many top DJs and the world renowened elrow....";</script>
+  </div>
+  </section>
+  <div>
+    <footer class="footerDestination">
+      <div>
+        <nav style="--bs-breadcrumb-divider: '|';" aria-label="breadcrumb" class="breadcrumbFooterDestination">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+            <li class="breadcrumb-item"><a href="destinations.html">Destination</a></li>
+            <li class="breadcrumb-item"><a href="contact.html">Contact Us</a></li>
+          </ol>
+        </nav>
+      </div>
+     <h6 class="freepikDestination">"Icon made by Freepik from www.flaticon.com"</h6>
+    </footer>
+  </div>
+</body>
+</html>
