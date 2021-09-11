@@ -20,10 +20,23 @@ function Tours (destination, duration, price, stock) {
     }
     this.free = true;
 }
-const Kyoto = new Destination ("Kyoto", "3 hours", "Temples, market and Ramen", 5);
-const Barcelona = new Destination ("Barcelona", "3 hours", "Street art, Museums and Calçots", 5);
-const Beirut = new Destination ("Beirut", "3 hours", "Market, music and lebanese food", 5);
-const Cairo = new Destination ("Cairo", "3 hours", "Pharos, tombs and falafel", 5);
+const element1 = document.getElementById("geishaText");
+element1.HTML = "The city of Kyoto blends is of vast contrast. Nested amongst modern buildings, you can stumble accross some traditional elements of Japanese culture.";
+
+const element2 = document.getElementById("beirutText");
+element2.HTML = "Beirut is a fascinating city, with so much to offer. It has a unique street art scene which makes it worth walking around and getting lost....";
+
+const element3 = document.getElementById("gizaText");
+element3.HTML = "The heat, the hustle and its unique history is what makes Cairo so speacil....";
+
+const element4 = document.getElementById("barcelonaText");
+element4.HTML = "Barcelona has one of the most important music scenes in Spain, with many top DJs and the world renowened elrow....";
+
+
+const Kyoto = new Destination2 ("Kyoto", "3 hours", "Temples, market and Ramen", 5);
+const Barcelona = new Destination4 ("Barcelona", "3 hours", "Street art, Museums and Calçots", 5);
+const Beirut = new Destination1 ("Beirut", "3 hours", "Market, music and lebanese food", 5);
+const Cairo = new Destination3 ("Cairo", "3 hours", "Pharos, tombs and falafel", 5);
 
 Kyoto.message();
 Barcelona.message();
@@ -65,21 +78,17 @@ for(let i = 0; i < form.length; i++){
     console.log(form[i])
 }
 /*
-const element = document.getElementById("geishaText");
-element.innerHTML = "The city of Kyoto blends is of vast contrast. Nested amongst modern buildings, you can stumble accross some traditional elements of Japanese culture.";*/
-/*
-const element = document.getElementById ("beirutText")
-element.innerHTML = "Beirut is a fascinating city, with so much to offer. It has a unique street art scene which makes it worth walking around and getting lost....";
+const element1 = document.getElementById("geishaText");
+element1.HTML = "The city of Kyoto blends is of vast contrast. Nested amongst modern buildings, you can stumble accross some traditional elements of Japanese culture.";
 
-const element = document.getElementById("gizaText")
-element.innerHTML = "The heat, the hustle and its unique history is what makes Cairo so speacil....";
+const element2 = document.getElementById("beirutText");
+element2.HTML = "Beirut is a fascinating city, with so much to offer. It has a unique street art scene which makes it worth walking around and getting lost....";
 
-const element = document.getElementById (barcelonaText)
-element.innerHTML = "Barcelona has one of the most important music scenes in Spain, with many top DJs and the world renowened elrow....";
-*/
+const element3 = document.getElementById("gizaText");
+element3.HTML = "The heat, the hustle and its unique history is what makes Cairo so speacil....";
 
-
-
+const element4 = document.getElementById("barcelonaText");
+element4.HTML = "Barcelona has one of the most important music scenes in Spain, with many top DJs and the world renowened elrow....";
 
 
 
