@@ -8,7 +8,7 @@ navbar {
 }
 
 body {
-    background: #c6eaea;
+    background: #31b1b1;
 }
 .divH1 {
     position: relative;
@@ -19,6 +19,7 @@ body {
     position: relative;
     top: 10px;
     left: 20px;
+    border:3px solid black
 }
 
 .bookH1 {
@@ -46,20 +47,27 @@ h2 {
     padding: 5px;
     text-align: center;
 }
-.iconFlags {
+.flagSection {
     display: flex;
+    justify-content: space-evenly;
     position: relative;
-    top: 200px;
-    flex-direction: row;
-    width: 1000px;
-    justify-content: space-between;
+    top: 230px;
 }
+.card-img-top {
+    width: 75%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 20px;
+}
+
 .iconLebanon, .iconEgypt, .iconJapan, .iconSpain {
    height: 200px;
 }
-/*.hide {
-    display: none;
-}*/
+p {
+    color: white;
+}
 .lebanonName:hover + .hide {
     display: block;
     color: white;
@@ -84,7 +92,7 @@ img-fluid {
     text-align: center;
     font-family: serif;
     font-size: 40px;
-    background: #c6eaea;
+    background: #31b1b1;
     width: 275px;
     opacity: 0.8;
 }
@@ -111,7 +119,7 @@ img-fluid {
     left: -165px;
     font-size: 40px;
     font-family: serif;
-    background: #c6eaea;
+    background: #31b1b1;
     width: 275px;
     opacity: 0.8;
 }
@@ -128,7 +136,7 @@ img-fluid {
     left: 25px;
     font-size: 40px;
     font-family: serif;
-    background: #c6eaea;
+    background: #31b1b1;
     width: 250px;
     opacity: 0.8;
 }
@@ -141,7 +149,7 @@ img-fluid {
     font-family: serif;
     font-size: 20px;
     border: none;
-    background: #c6eaea;
+    background: #31b1b1;
     opacity: 0.8;
 }
 #geishaText {
@@ -152,7 +160,7 @@ img-fluid {
     font-size: 20px;
     font-family: serif;
     border: none;
-    background: #c6eaea;
+    background: #31b1b1;
     opacity: 0.8;
 }
 #gizaText {
@@ -163,7 +171,7 @@ img-fluid {
     font-size: 20px;
     font-family: serif;
     border: none;
-    background: #c6eaea;
+    background: #31b1b1;
     opacity: 0.8;
 }
 .contactForm {
@@ -241,10 +249,10 @@ p {
     font-size: 25px;
     padding: inherit;
 }
-.destinationTitle {
+#destinationTitle {
     font-size: 80px;
     text-align: center;
-    background: #c6eaea;
+    background: #31b1b1;
     opacity: 0.8;
     font-family: serif;
 }
@@ -259,7 +267,7 @@ p {
     padding: 5px;
     text-align: center;
     font-size: 40px;
-    background: #c6eaea;
+    background: #31b1b1;
     width: 300px;
     opacity: 0.8;
 }
@@ -271,7 +279,7 @@ p {
     top: -235px;
     left: 300px;
     border: none;
-    background: #c6eaea;
+    background: #31b1b1;
     opacity: 0.8;
 }
 .breadcrumbFooterHome {
@@ -310,12 +318,9 @@ p {
   background-size: cover;
 }
 .footerDestination {
-    background: #c6eaea;
+    background: #31b1b1;
     opacity: 0.8;
 }
-
-
-
 .form-select {
     width: 225px;
 }
@@ -398,4 +403,9 @@ a {
     margin-right: auto;
     position: relative;
     top: 100px;
+}
+form {
+    color: burlywood;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+    background-color: black;
 }
